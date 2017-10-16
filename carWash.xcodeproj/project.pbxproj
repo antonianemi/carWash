@@ -13,6 +13,7 @@
 		FA3638D61F94318300195E15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3638D41F94318300195E15 /* Main.storyboard */; };
 		FA3638D81F94318300195E15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3638D71F94318300195E15 /* Assets.xcassets */; };
 		FA3638DB1F94318300195E15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3638D91F94318300195E15 /* LaunchScreen.storyboard */; };
+		FAA9699A1F94736A0078C53B /* FacebookLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA9699B1F94736A0078C53B /* FacebookLogin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FA3638D71F94318300195E15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA3638DA1F94318300195E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA3638DC1F94318300195E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA9699B1F94736A0078C53B /* FacebookLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FacebookLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA9699A1F94736A0078C53B /* FacebookLogin.framework in Frameworks */,
 				D96A68510F481718ACDCBBE5 /* Pods_carWash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,6 +55,7 @@
 		810AE87449FFCB9BFB61AA5A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FAA9699B1F94736A0078C53B /* FacebookLogin.framework */,
 				04CAA7094004B69D91B05135 /* Pods_carWash.framework */,
 			);
 			name = Frameworks;
