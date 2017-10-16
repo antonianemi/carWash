@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D96A68510F481718ACDCBBE5 /* Pods_carWash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CAA7094004B69D91B05135 /* Pods_carWash.framework */; };
 		FA3638D11F94318300195E15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3638D01F94318300195E15 /* AppDelegate.swift */; };
 		FA3638D31F94318300195E15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3638D21F94318300195E15 /* ViewController.swift */; };
 		FA3638D61F94318300195E15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3638D41F94318300195E15 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04CAA7094004B69D91B05135 /* Pods_carWash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_carWash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C1D67560CC5DDB51073290F /* Pods-carWash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carWash.release.xcconfig"; path = "Pods/Target Support Files/Pods-carWash/Pods-carWash.release.xcconfig"; sourceTree = "<group>"; };
+		F1E090492FCA35E1F34CF20A /* Pods-carWash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carWash.debug.xcconfig"; path = "Pods/Target Support Files/Pods-carWash/Pods-carWash.debug.xcconfig"; sourceTree = "<group>"; };
 		FA3638CD1F94318300195E15 /* carWash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carWash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3638D01F94318300195E15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA3638D21F94318300195E15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D96A68510F481718ACDCBBE5 /* Pods_carWash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7FB2CE3BCFBDF413D7D534E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1E090492FCA35E1F34CF20A /* Pods-carWash.debug.xcconfig */,
+				1C1D67560CC5DDB51073290F /* Pods-carWash.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		810AE87449FFCB9BFB61AA5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04CAA7094004B69D91B05135 /* Pods_carWash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FA3638C41F94318300195E15 = {
 			isa = PBXGroup;
 			children = (
 				FA3638CF1F94318300195E15 /* carWash */,
 				FA3638CE1F94318300195E15 /* Products */,
+				7FB2CE3BCFBDF413D7D534E2 /* Pods */,
+				810AE87449FFCB9BFB61AA5A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA3638DF1F94318300195E15 /* Build configuration list for PBXNativeTarget "carWash" */;
 			buildPhases = (
+				7FB59450AC98CE64570D0627 /* [CP] Check Pods Manifest.lock */,
 				FA3638C91F94318300195E15 /* Sources */,
 				FA3638CA1F94318300195E15 /* Frameworks */,
 				FA3638CB1F94318300195E15 /* Resources */,
+				6A1BBE239B494339311869DE /* [CP] Embed Pods Frameworks */,
+				46F3656B78ADA12002F0336E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46F3656B78ADA12002F0336E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-carWash/Pods-carWash-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A1BBE239B494339311869DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-carWash/Pods-carWash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FB59450AC98CE64570D0627 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA3638C91F94318300195E15 /* Sources */ = {
@@ -272,6 +347,7 @@
 		};
 		FA3638E01F94318300195E15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E090492FCA35E1F34CF20A /* Pods-carWash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +363,7 @@
 		};
 		FA3638E11F94318300195E15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1D67560CC5DDB51073290F /* Pods-carWash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
