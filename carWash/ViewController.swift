@@ -7,16 +7,14 @@
 //
 
 import UIKit
-import FacebookLogin
-
+import Firebase
 class ViewController: UIViewController {
 
+    @IBOutlet weak var txt_username: UITextField!
+    @IBOutlet weak var txt_password: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        let btn_login = LoginButton(readPermissions: [.publicProfile])
-        btn_login.center = view.center
-        view.addSubview(btn_login)
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,6 +22,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func singIn(_ sender: Any) {
+        guard let username = txt_username.text, let password = txt_password.text else { return }
+        Auth.auth().signIn(withEmail: username, password: password) { (user, error) in
+            if error != nil{
+               return
+            }
+        }
+    }
+    
 }
 

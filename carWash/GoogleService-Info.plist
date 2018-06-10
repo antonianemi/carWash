@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>561744132035-tnuid2a6ban5re64noirsqsob065055g.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.561744132035-tnuid2a6ban5re64noirsqsob065055g</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDAoKW4O_Zwo5BzkidPxf-KKkTW6J7tTHo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>561744132035</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>tony.carWash</string>
+	<key>PROJECT_ID</key>
+	<string>carwashonline-32341</string>
+	<key>STORAGE_BUCKET</key>
+	<string>carwashonline-32341.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:561744132035:ios:c60c3f5e584783eb</string>
+	<key>DATABASE_URL</key>
+	<string>https://carwashonline-32341.firebaseio.com</string>
+</dict>
+</plist>
