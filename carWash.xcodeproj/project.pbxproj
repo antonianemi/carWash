@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		D96A68510F481718ACDCBBE5 /* Pods_carWash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CAA7094004B69D91B05135 /* Pods_carWash.framework */; };
 		FA3638D11F94318300195E15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3638D01F94318300195E15 /* AppDelegate.swift */; };
-		FA3638D31F94318300195E15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3638D21F94318300195E15 /* ViewController.swift */; };
 		FA3638D61F94318300195E15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3638D41F94318300195E15 /* Main.storyboard */; };
 		FA3638D81F94318300195E15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3638D71F94318300195E15 /* Assets.xcassets */; };
 		FA3638DB1F94318300195E15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3638D91F94318300195E15 /* LaunchScreen.storyboard */; };
 		FA62D4B320CDE30C00459150 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA62D4B220CDE30C00459150 /* GoogleService-Info.plist */; };
+		FAA36F9520CED70300228386 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA36F9420CED70300228386 /* UIButton.swift */; };
+		FAA36F9720CED78A00228386 /* VCMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA36F9620CED78A00228386 /* VCMain.swift */; };
+		FAA36F9920CED7A700228386 /* VCLogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA36F9820CED7A700228386 /* VCLogIn.swift */; };
+		FAA36F9B20CED7C300228386 /* VCSingUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA36F9A20CED7C300228386 /* VCSingUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +25,15 @@
 		F1E090492FCA35E1F34CF20A /* Pods-carWash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carWash.debug.xcconfig"; path = "Pods/Target Support Files/Pods-carWash/Pods-carWash.debug.xcconfig"; sourceTree = "<group>"; };
 		FA3638CD1F94318300195E15 /* carWash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carWash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3638D01F94318300195E15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA3638D21F94318300195E15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA3638D51F94318300195E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA3638D71F94318300195E15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA3638DA1F94318300195E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA3638DC1F94318300195E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA62D4B220CDE30C00459150 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FAA36F9420CED70300228386 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		FAA36F9620CED78A00228386 /* VCMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCMain.swift; sourceTree = "<group>"; };
+		FAA36F9820CED7A700228386 /* VCLogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCLogIn.swift; sourceTree = "<group>"; };
+		FAA36F9A20CED7C300228386 /* VCSingUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VCSingUp.swift; path = ../VCSingUp.swift; sourceTree = "<group>"; };
 		FAA9699B1F94736A0078C53B /* FacebookLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FacebookLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -64,6 +70,7 @@
 		FA3638C41F94318300195E15 = {
 			isa = PBXGroup;
 			children = (
+				FAA36F9320CED6E700228386 /* extensions */,
 				FA3638CF1F94318300195E15 /* carWash */,
 				FA3638CE1F94318300195E15 /* Products */,
 				7FB2CE3BCFBDF413D7D534E2 /* Pods */,
@@ -82,8 +89,10 @@
 		FA3638CF1F94318300195E15 /* carWash */ = {
 			isa = PBXGroup;
 			children = (
+				FAA36F9A20CED7C300228386 /* VCSingUp.swift */,
+				FAA36F9820CED7A700228386 /* VCLogIn.swift */,
+				FAA36F9620CED78A00228386 /* VCMain.swift */,
 				FA3638D01F94318300195E15 /* AppDelegate.swift */,
-				FA3638D21F94318300195E15 /* ViewController.swift */,
 				FA3638D41F94318300195E15 /* Main.storyboard */,
 				FA3638D71F94318300195E15 /* Assets.xcassets */,
 				FA3638D91F94318300195E15 /* LaunchScreen.storyboard */,
@@ -91,6 +100,14 @@
 				FA62D4B220CDE30C00459150 /* GoogleService-Info.plist */,
 			);
 			path = carWash;
+			sourceTree = "<group>";
+		};
+		FAA36F9320CED6E700228386 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FAA36F9420CED70300228386 /* UIButton.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,8 +244,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA3638D31F94318300195E15 /* ViewController.swift in Sources */,
+				FAA36F9720CED78A00228386 /* VCMain.swift in Sources */,
 				FA3638D11F94318300195E15 /* AppDelegate.swift in Sources */,
+				FAA36F9520CED70300228386 /* UIButton.swift in Sources */,
+				FAA36F9B20CED7C300228386 /* VCSingUp.swift in Sources */,
+				FAA36F9920CED7A700228386 /* VCLogIn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
